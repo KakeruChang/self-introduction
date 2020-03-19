@@ -12,7 +12,10 @@ import Experience from './components/Experience'
 
 const App: React.FC = () => (
   <div className='bg-light py-5'>
-    <div className='container pb-2 pt-5' style={{ backgroundColor: '#fff' }}>
+    <div
+      className='container pb-2 pt-5 px-5'
+      style={{ backgroundColor: '#fff' }}
+    >
       <Information data={data.information} />
       <Introduction data={data.introduction} />
       <Skills data={data.skills} />

@@ -60,7 +60,7 @@
     "eslintInit": "eslint --init",
     "tsm": "tsm src --watch",
     "predeploy": "yarn run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d dist"
   },
   "homepage": "https://KakeruChang.github.io/Self-Introduction",
   "prettier": {
