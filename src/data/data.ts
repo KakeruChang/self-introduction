@@ -96,7 +96,7 @@ const data = {
     {
       name: 'Hex School',
       duration: 'Dec 2018 ~ Aug 2019',
-      content: ['Vue', 'Bootstrap4', 'RWD', 'HTML5/CSS3/JavaScript (ES6)']
+      content: ['Vue', 'Bootstrap4', 'RWD', 'HTML5 / CSS3 / JavaScript (ES6)']
     },
     {
       name: 'Local Tax Bureau of Keelung City',

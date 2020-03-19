@@ -25,7 +25,7 @@ const Information: FC<InformationProps> = (
 
   return (
     <div className='row'>
-      <div className='col-4 d-flex justify-content-center'>
+      <div className='col-sm-4 col-12 d-flex justify-content-center'>
         <img
           src={data.img}
           className='rounded-circle'
@@ -33,7 +33,7 @@ const Information: FC<InformationProps> = (
           style={{ maxHeight: 150, maxWidth: 120 }}
         />
       </div>
-      <div className='col-8'>
+      <div className='col-sm-8 col-12'>
         <h1 className='h2'>{data.name}</h1>
         <div className='my-3'>
           <a className='text-decoration-none text-dark' href={data.link.github}>
