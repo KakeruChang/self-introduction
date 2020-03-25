@@ -21,6 +21,12 @@ const Experience: FC<ExperienceProps> = (
       <h2 className='border-top border-secondary pt-3 mt-3'>{`Experience ${'&'} Education`}</h2>
       <div className='time-line'>
         {data.map(item => (
+          // <div
+          //   className={`time-spot ${
+          //     index % 2 ? 'time-spot-odd' : 'time-spot-even'
+          //   }`}
+          //   key={item.name}
+          // >
           <div className='time-spot' key={item.name}>
             <div className='time-content'>
               <h3 className='h5 font-weight-light'>

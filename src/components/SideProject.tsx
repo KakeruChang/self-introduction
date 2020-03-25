@@ -44,11 +44,21 @@ const SideProject: FC<SideProjectProps> = (
             </div>
           </div>
           <div className='card-footer d-flex justify-content-around'>
-            <a href={project.demo} className='btn btn-outline-primary'>
+            <a
+              href={project.demo}
+              className='btn btn-outline-primary'
+              target='_blank'
+              rel='noopener noreferrer'
+            >
               demo
               {`(${project.demoPlace})`}
             </a>
-            <a href={project.source} className='btn btn-outline-primary'>
+            <a
+              href={project.source}
+              className='btn btn-outline-primary'
+              target='_blank'
+              rel='noopener noreferrer'
+            >
               source
             </a>
           </div>
