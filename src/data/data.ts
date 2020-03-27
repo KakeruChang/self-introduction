@@ -94,7 +94,7 @@ const data = {
       ]
     },
     {
-      name: 'Hex School',
+      name: 'Hex School (Onsite Course)',
       duration: 'Dec 2018 ~ Aug 2019',
       content: ['Vue', 'Bootstrap4', 'RWD', 'HTML5 / CSS3 / JavaScript (ES6)']
     },
