@@ -12,7 +12,8 @@ const data = {
     language: ['TOEIC 790', 'JLPT N1'],
     img: info,
     link: {
-      github: 'https://github.com/KakeruChang'
+      github: 'https://github.com/KakeruChang',
+      medium: 'https://medium.com/@b97201019'
     }
   },
   introduction: {
@@ -28,7 +29,8 @@ const data = {
         'React.js',
         'React Hooks',
         'Redux',
-        'Vue.js (with Vue CLI 3)',
+        'Typescript',
+        'Vue.js',
         'Vuex',
         'JavaScript ES6',
         'AJAX',

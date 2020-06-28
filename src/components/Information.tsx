@@ -1,6 +1,6 @@
 import React, { FC, ReactElement } from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faGithub } from '@fortawesome/free-brands-svg-icons'
+import { faGithub, faMedium } from '@fortawesome/free-brands-svg-icons'
 import {
   faEnvelope,
   faPhone,
@@ -14,7 +14,7 @@ interface InformationProps {
     tel: string
     language: string[]
     img: string
-    link: { github: string }
+    link: { github: string; medium: string }
   }
 }
 
@@ -36,8 +36,21 @@ const Information: FC<InformationProps> = (
       <div className='col-sm-8 col-12'>
         <h1 className='h2'>{data.name}</h1>
         <div className='my-3'>
-          <a className='text-decoration-none text-dark' href={data.link.github}>
+          <a
+            className='text-decoration-none text-dark mr-2'
+            href={data.link.github}
+            target='_blank'
+            rel='noopener noreferrer'
+          >
             <FontAwesomeIcon icon={faGithub} size='2x' />
+          </a>
+          <a
+            className='text-decoration-none text-dark mr-2'
+            href={data.link.medium}
+            target='_blank'
+            rel='noopener noreferrer'
+          >
+            <FontAwesomeIcon icon={faMedium} size='2x' />
           </a>
         </div>
         <div>
@@ -50,7 +63,7 @@ const Information: FC<InformationProps> = (
         </div>
         <div>
           <FontAwesomeIcon icon={faLanguage} />
-          {data.language.map(item => (
+          {data.language.map((item) => (
             <span className='ml-2' key={item}>
               {item}
             </span>

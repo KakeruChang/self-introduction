@@ -41,7 +41,7 @@ module.exports = {
       }
     ],
     'no-unused-vars': 'off',
-    'arrow-parens': ['error', 'as-needed'],
+    'arrow-parens': 'off',
     'react/jsx-props-no-spreading': 'off'
   }
 }
