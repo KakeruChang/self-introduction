@@ -1,4 +1,6 @@
 import info from '../assets/info.jpg'
+import work11 from '../assets/work1-1.png'
+import work12 from '../assets/work1-2.png'
 import side1 from '../assets/side1.png'
 import side2 from '../assets/side2.png'
 import side31 from '../assets/side3_1.png'
@@ -46,6 +48,19 @@ const data = {
       content: ['firebase', 'Git & Github', 'yarn & npm']
     }
   ],
+  works: [
+    {
+      title: '12-years-education',
+      img: [work11, work12],
+      company: 'United Daily News',
+      link: [
+        'https://udn.com/newmedia/2020/12-years-education/',
+        'https://udn.com/newmedia/2020/12-years-education/poll'
+      ],
+      type: 'Web',
+      framework: 'Vue'
+    }
+  ],
   sideProject: [
     {
       title: 'Imitating of Linksmate',
@@ -86,6 +101,15 @@ const data = {
     }
   ],
   experience: [
+    {
+      name: 'Front-End Developer | United Daily News',
+      duration: 'May 2020 ~ Present',
+      content: [
+        'Collaborated with team of web designers and product team members to create new RWD Web Content using Vue',
+        'Collaborated with back end developer',
+        'Maintained and fixed content for existing website'
+      ]
+    },
     {
       name: 'Atmark Solution Inc.',
       duration: 'Sep 2019 ~ Mar 2020',

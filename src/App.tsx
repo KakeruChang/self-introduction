@@ -10,6 +10,7 @@ import Introduction from './components/Introduction'
 import Skills from './components/Skills'
 import SideProject from './components/SideProject'
 import Experience from './components/Experience'
+import Works from './components/Works'
 
 const App: React.FC = () => (
   <div className='bg-light py-5'>
@@ -20,6 +21,7 @@ const App: React.FC = () => (
       <Information data={data.information} />
       <Introduction data={data.introduction} />
       <Skills data={data.skills} />
+      <Works data={data.works} />
       <SideProject data={data.sideProject} />
       <Experience data={data.experience} />
       {/* <h1 className={styles.mainBlock}>Hi JSX123！</h1> */}

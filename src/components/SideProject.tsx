@@ -19,7 +19,7 @@ const SideProject: FC<SideProjectProps> = (
 
   return (
     <div className='my-5'>
-      <h2>Side Project</h2>
+      <h2 className='border-top border-secondary pt-3 mt-3'>Side Project</h2>
       {data.map((project, index) => (
         <div className='card  border-primary my-3' key={project.title}>
           <div className='card-header text-center'>
@@ -29,14 +29,14 @@ const SideProject: FC<SideProjectProps> = (
           </div>
           <div className={`row ${index % 2 > 0 ? 'flex-row-reverse' : ''}`}>
             <div className='col-md-8 col-12 d-flex flex-column align-items-center'>
-              {project.img.map(image => (
+              {project.img.map((image) => (
                 <img className='img-fluid' src={image} alt='' key={image} />
               ))}
             </div>
             <div className='col-md-4 col-12 d-flex align-items-center'>
               <div className='card-body'>
                 <ul>
-                  {project.content.map(item => (
+                  {project.content.map((item) => (
                     <li key={item}>{item}</li>
                   ))}
                 </ul>
