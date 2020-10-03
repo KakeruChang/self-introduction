@@ -15,8 +15,8 @@ const Skills: FC<SkillsProps> = (props: SkillsProps): ReactElement => {
     <div className='my-5'>
       <h2>Skills</h2>
       <div className='row'>
-        {data.map(skill => (
-          <div className='col-md-4 col-12' key={skill.title}>
+        {data.map((skill) => (
+          <div className='col-md-6 col-12' key={skill.title}>
             <>
               <div
                 style={{ fontSize: 32 }}
@@ -25,7 +25,7 @@ const Skills: FC<SkillsProps> = (props: SkillsProps): ReactElement => {
                 {skill.title}
               </div>
               <ul>
-                {skill.content.map(item => (
+                {skill.content.map((item) => (
                   <li key={item}>{item}</li>
                 ))}
               </ul>

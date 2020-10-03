@@ -5,6 +5,7 @@ import side1 from '../assets/side1.png'
 import side2 from '../assets/side2.png'
 import side31 from '../assets/side3_1.png'
 import side32 from '../assets/side3_2.png'
+import side4 from '../assets/side4.png'
 
 const data = {
   information: {
@@ -28,24 +29,25 @@ const data = {
     {
       title: 'JavaScript',
       content: [
-        'React.js',
-        'React Hooks',
+        'React.js (Hook)',
+        'React Native',
         'Redux',
         'Typescript',
+        'ES6',
         'Vue.js',
-        'Vuex',
-        'JavaScript ES6',
-        'AJAX',
-        'jQuery'
+        'Vuex'
       ]
     },
     {
-      title: 'Web Layout',
-      content: ['Bootstrap4', 'RWD', 'HTML5 / CSS3']
-    },
-    {
-      title: 'Service & Helper',
-      content: ['firebase', 'Git & Github', 'yarn & npm']
+      title: 'Layout / Service & Helper',
+      content: [
+        'Bootstrap4',
+        'RWD',
+        'HTML5 / CSS3',
+        'firebase',
+        'Git & Github',
+        'yarn & npm'
+      ]
     }
   ],
   works: [
@@ -62,6 +64,20 @@ const data = {
     }
   ],
   sideProject: [
+    {
+      title: 'Using React Native to make an App without Expo',
+      img: [side4],
+      content: [
+        '33 tutorial articles of React Native',
+        'React hooks / Redux',
+        'TypeScript / ESLint-airbnb',
+        'Firebase / Async Storage',
+        'i18n',
+        'Scheduled Notification',
+        'Redirecting to detail as clicking on the notification'
+      ],
+      demo: 'https://ithelp.ithome.com.tw/users/20121828/ironman/3042'
+    },
     {
       title: 'Imitating of Linksmate',
       img: [side1],
