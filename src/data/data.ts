@@ -1,6 +1,7 @@
 import info from '../assets/info.jpg'
 import work11 from '../assets/work1-1.png'
 import work12 from '../assets/work1-2.png'
+import work2 from '../assets/work2.png'
 import side1 from '../assets/side1.png'
 import side2 from '../assets/side2.png'
 import side31 from '../assets/side3_1.png'
@@ -52,6 +53,14 @@ const data = {
   ],
   works: [
     {
+      title: '108-education-collection',
+      img: [work2],
+      company: 'United Daily News',
+      link: ['https://udn.com/newmedia/12-Year-Basic-education/'],
+      type: 'Web',
+      framework: 'Vue 3'
+    },
+    {
       title: '12-years-education',
       img: [work11, work12],
       company: 'United Daily News',
@@ -65,7 +74,7 @@ const data = {
   ],
   sideProject: [
     {
-      title: 'Using React Native to make an App without Expo',
+      title: 'Use React Native to make an App without Expo',
       img: [side4],
       content: [
         '33 tutorial articles of React Native',
@@ -74,7 +83,7 @@ const data = {
         'Firebase / Async Storage',
         'i18n',
         'Scheduled Notification',
-        'Redirecting to detail as clicking on the notification'
+        'Redirect to detail as clicking on the notification'
       ],
       demo: 'https://ithelp.ithome.com.tw/users/20121828/ironman/3042'
     },
@@ -85,9 +94,9 @@ const data = {
         'React hooks / Redux',
         'Bootstrap4 / RWD',
         'firebase',
-        'estimating the phone rate on homepage',
-        'apply for your own account by clicking "申し込む" button, and complete the steps for registering.',
-        'log in and view detail  (such as circular progress bar which can reveal the data left ) in my page (マイページ)]'
+        'Estimate the phone rate on homepage',
+        'Apply for your own account by clicking "申し込む" button, and complete the steps for registering.',
+        'Log in and view detail  (such as circular progress bar which can reveal the data left ) in my page (マイページ)]'
       ],
       demo: 'https://react-hook-demo.herokuapp.com/#/',
       demoPlace: 'Heroku',
@@ -121,9 +130,9 @@ const data = {
       name: 'Front-End Developer | United Daily News',
       duration: 'May 2020 ~ Present',
       content: [
-        'Collaborated with team of web designers and product team members to create new RWD Web Content using Vue',
-        'Collaborated with back end developer',
-        'Maintained and fixed content for existing website'
+        'Collaborate with team of web designers and product team members to create new RWD Web Content using Vue',
+        'Collaborate with back end developer',
+        'Maintaine and fix content for existing website and common component'
       ]
     },
     {
