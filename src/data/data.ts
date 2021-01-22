@@ -2,6 +2,7 @@ import info from '../assets/info.jpg'
 import work11 from '../assets/work1-1.png'
 import work12 from '../assets/work1-2.png'
 import work2 from '../assets/work2.png'
+import work3 from '../assets/work3.png'
 import side1 from '../assets/side1.png'
 import side2 from '../assets/side2.png'
 import side31 from '../assets/side3_1.png'
@@ -53,6 +54,14 @@ const data = {
   ],
   works: [
     {
+      title: 'six-cities',
+      img: [work3],
+      company: 'United Daily News',
+      link: ['https://vip.udn.com/newmedia/2021/cities/'],
+      type: 'Web',
+      framework: 'Vue 2'
+    },
+    {
       title: '108-education-collection',
       img: [work2],
       company: 'United Daily News',
@@ -69,7 +78,7 @@ const data = {
         'https://udn.com/newmedia/2020/12-years-education/poll'
       ],
       type: 'Web',
-      framework: 'Vue'
+      framework: 'Vue 2'
     }
   ],
   sideProject: [
