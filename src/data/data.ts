@@ -31,9 +31,10 @@ const data = {
     {
       title: 'JavaScript',
       content: [
-        'React.js (Hook)',
+        'React.js',
         'React Native',
         'Redux',
+        'Next.js',
         'Typescript',
         'ES6',
         'Vue.js',
@@ -43,6 +44,7 @@ const data = {
     {
       title: 'Layout / Service & Helper',
       content: [
+        'styled-componnents',
         'Bootstrap4',
         'RWD',
         'HTML5 / CSS3',
