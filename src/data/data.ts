@@ -44,7 +44,7 @@ const data = {
     {
       title: 'Layout / Service & Helper',
       content: [
-        'styled-componnents',
+        'styled-components',
         'Bootstrap4',
         'RWD',
         'HTML5 / CSS3',
