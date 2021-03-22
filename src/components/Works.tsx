@@ -22,7 +22,7 @@ const Works: FC<WorksProps> = (props: WorksProps): ReactElement => {
         <div className='card  border-primary my-3' key={project.title}>
           <div className='card-header text-center'>
             <div style={{ fontSize: 32 }} className='font-weight-light'>
-              {`${project.title}(${project.company})`}
+              {`${project.title}( ${project.company} )`}
             </div>
           </div>
           <div className='row  m-0'>

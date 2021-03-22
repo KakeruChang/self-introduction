@@ -3,6 +3,15 @@ import work11 from '../assets/work1-1.png'
 import work12 from '../assets/work1-2.png'
 import work2 from '../assets/work2.png'
 import work3 from '../assets/work3.png'
+import work31 from '../assets/work3_1.png'
+import work32 from '../assets/work3_2.png'
+import work33 from '../assets/work3_3.png'
+import work34 from '../assets/work3_4.png'
+import work35 from '../assets/work3_5.png'
+import work36 from '../assets/work3_6.png'
+import work41 from '../assets/work4-1.png'
+import work42 from '../assets/work4-2.png'
+import work43 from '../assets/work4-3.png'
 import side1 from '../assets/side1.png'
 import side2 from '../assets/side2.png'
 import side31 from '../assets/side3_1.png'
@@ -56,10 +65,30 @@ const data = {
   ],
   works: [
     {
-      title: 'six-cities',
-      img: [work3],
+      title: 'elderly_housing',
+      img: [work41, work42, work43],
       company: 'United Daily News',
-      link: ['https://vip.udn.com/newmedia/2021/cities/'],
+      link: [
+        'https://udn.com/newmedia/2021/elderly_housing/',
+        'https://udn.com/newmedia/2021/elderly_housing/solution',
+        'https://udn.com/newmedia/2021/elderly_housing/story'
+      ],
+      type: 'Web',
+      framework: 'Vue 2'
+    },
+    {
+      title: 'six-cities',
+      img: [work31, work32, work33, work34, work35, work36, work3],
+      company: 'United Daily News',
+      link: [
+        'https://vip.udn.com/newmedia/2021/cities/Taipei',
+        'https://vip.udn.com/newmedia/2021/cities/New-Taipei',
+        'https://vip.udn.com/newmedia/2021/cities/Taoyuan',
+        'https://vip.udn.com/newmedia/2021/cities/Taichung',
+        'https://vip.udn.com/newmedia/2021/cities/Tainan',
+        'https://vip.udn.com/newmedia/2021/cities/Kaohsiung',
+        'https://vip.udn.com/newmedia/2021/cities/'
+      ],
       type: 'Web',
       framework: 'Vue 2'
     },
@@ -138,12 +167,17 @@ const data = {
   ],
   experience: [
     {
+      name: 'Software Engineer | Koumiisi Co., Ltd.',
+      duration: 'Mar 2021 ~ Present',
+      content: ['React', 'React Native']
+    },
+    {
       name: 'Front-End Developer | United Daily News',
-      duration: 'May 2020 ~ Present',
+      duration: 'May 2020 ~ Mar 2021',
       content: [
         'Collaborate with team of web designers and product team members to create new RWD Web Content using Vue',
         'Collaborate with back end developer',
-        'Maintaine and fix content for existing website and common component'
+        'Maintaine and update content for existing website and common component'
       ]
     },
     {
@@ -156,7 +190,7 @@ const data = {
       ]
     },
     {
-      name: 'Hex School (Online Course)',
+      name: 'Hex School ( Online Course )',
       duration: 'Dec 2018 ~ Aug 2019',
       content: ['Vue', 'Bootstrap4', 'RWD', 'HTML5 / CSS3 / JavaScript (ES6)']
     },
